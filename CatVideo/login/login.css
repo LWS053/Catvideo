@@ -1,0 +1,15 @@
+#loginDiv{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.button{
+    width:150px;
+    margin-top: 200px;
+}
+
+.loginInput{
+    width: 300px;
+}

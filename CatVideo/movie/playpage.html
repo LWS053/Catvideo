@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Cat播放室</title>
+        <link rel="stylesheet" id="bootstrap-css" href="../css/bootstrap.min.css" type="text/css"media="all">
+        <link rel="stylesheet" id="style-css" href="../css/style.min.css" type="text/css"media="all">
+        <link rel="stylesheet" id="font-awesome-css" href="../css/font-awesome-4.7.0/css/font-awesome.min.css"type="text/css" media="all">
+        <link rel="stylesheet" href="./playpage.css">
+        <script src="./playpage.js"></script>
+    </head>
+    <body>
+        <div id="body-wrap">
+            <div id="wrap">
+                <header class="dark-div">
+                    <div id="top-nav" class="topnav-dark ">
+                        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                            <div class="container">
+                                <div class="navbar-header"> 
+                                    <button type="button" class="navbar-toggle"data-toggle="collapse" data-target=".navbar-collapse"> 
+                                        <span class="sr-only"></span>
+                                        <i class="fa fa-reorder fa-bars fa-lg"></i>
+                                     </button>
+                                      <a  href="./Cat视频.html" title="Cat视频~">
+                                        <img style="padding-top: 13.5 px;" src="../image/png/logo.png" alt="Cat视频~">
+                                      </a>
+                                </div>
+                                <div class="main-menu collapse navbar-collapse">
+                                    <ul class="nav navbar-nav nav-ul-menu navbar-right hidden-xs">
+                                        <li class="main-menu-item current-menu-item"><a href="../../Cat视频.html">返回首页
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div id="headline" class="topnav-dark ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="headline-content col-md-6 col-sm-6 hidden-xs">
+                                    <div class="headline" id="head54118978">
+                                        <div class="row-fluid">
+                                            <div class="htitle"> <span class="hicon"><span
+                                                        class="first-tex">欢迎来到Cat播放室~</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div id="playpagebody">
+                    <h1 id="videoTitle"></h1>
+                    <div id="video">
+                        <video id="videoPlay" width="1200" controls="controls">
+                            <source src="./resource/视频 1.mp4" type="video/mp4">
+                            <source src="./resource/视频 1.ogg" type="video/ogg">
+                        </video>
+                    </div>
+                    <div id="playButton">
+                        <button value="播放" id="playPause">播放/暂停</button>
+                        <button value="上一部" id="onFilm">上一部</button>
+                        <button value="下一部" id="underFilm">下一部</button>
+                        <button value="放大" id="makeBig">放大/还原</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>

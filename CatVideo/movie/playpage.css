@@ -1,0 +1,25 @@
+#playpagebody{
+    width: 100%;
+    height: 1903px;
+    background: black;
+    margin: auto;
+    text-align: center;
+}
+#video{
+    border: 3px;
+    text-align: center;
+    margin: 20px;
+}
+#playButton{
+    text-align: center;
+}
+#videoTitle{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    color: yellowgreen;
+}
+#videoPlay{
+    border: 1px solid blueviolet;
+    padding: 20px;
+}
